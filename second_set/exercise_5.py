@@ -15,4 +15,9 @@ for _ in range(4):
     tess.forward(side_length)
     tess.left(90)
 
+# hexagon
+for _ in range(6):
+    tess.forward(side_length)
+    tess.left(60)
+
 screen.exitonclick()
