@@ -9,4 +9,7 @@ for angle in drunk_angles:
     pirate.left(angle)      # positive angles are counter-clockwise i.e. left
     pirate.forward(100)     # 100 steps forward
 
+print("Final heading", sum(drunk_angles) % 360)
+print("Alternative final heading", pirate.heading())
+
 screen.exitonclick()
