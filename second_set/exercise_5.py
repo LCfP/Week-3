@@ -25,4 +25,10 @@ for _ in range(8):
     tess.forward(side_length)
     tess.left(45)
 
+# exercise 8 18 sided polygon
+for _ in range(18):
+    tess.forward(side_length)
+    tess.left(360 / 18)
+    # 360 / 18 == 20 which is the answer to the question
+
 screen.exitonclick()
