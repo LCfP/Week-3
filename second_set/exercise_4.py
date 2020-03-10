@@ -6,18 +6,18 @@ for number in numbers:
 
 # (b)
 for number in numbers:
-    print(number, number * number)
+    print(number, "and its square is:", number * number)
 
 # (c)
 total = 0
 for number in numbers:
     total += number
 
-print(total)
+print("The sum of the numbers is:", total)
 
 # (d)
 product = 1             # note that the base number of multiplication is 1
 for number in numbers:
     product *= number
 
-print(product)
+print("The product of the numbers is:", product)
