@@ -20,4 +20,9 @@ for _ in range(6):
     tess.forward(side_length)
     tess.left(60)
 
+# octagon
+for _ in range(8):
+    tess.forward(side_length)
+    tess.left(45)
+
 screen.exitonclick()
