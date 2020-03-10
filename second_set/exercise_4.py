@@ -7,3 +7,10 @@ for number in numbers:
 # (b)
 for number in numbers:
     print(number, number * number)
+
+# (c)
+total = 0
+for number in numbers:
+    total += number
+
+print(total)
