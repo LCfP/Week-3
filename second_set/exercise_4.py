@@ -14,3 +14,10 @@ for number in numbers:
     total += number
 
 print(total)
+
+# (d)
+product = 1             # note that the base number of multiplication is 1
+for number in numbers:
+    product *= number
+
+print(product)
