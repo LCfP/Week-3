@@ -1,7 +1,7 @@
-n = 3029
+n = 0
 
-count = 0
-while n != 0:
+count = 1
+while n // 10 != 0:
     count = count + 1
     n = n // 10
 
